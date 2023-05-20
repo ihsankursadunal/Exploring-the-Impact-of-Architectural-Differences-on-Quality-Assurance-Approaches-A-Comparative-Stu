@@ -64,8 +64,6 @@ After Service Oriented Architecture (SOA) came to light in the late 1990s, In a 
 Even though SOA is assumed to be in MA, it also has some microservice aspects. These similarities make it easy to compare it with microservice architecture, and both use some common quality assurance tools, methods, and approaches. SOA and Microservice Architecture look very similar to each other in terms of decomposition and single communication layer. In SOA, this layer is named BUS; in Microservice it's an IP-based network. Because both are decomposed services, integration testing approaches, unit testing, and performance metrics remain common. Also, both have some common problems. For example, while doing integration testing, it is not possible to mock all parts of the application. In order to make appropriate tests, they need a dedicated environment that allows testers, either humans or autonomous, to see how the codebase works and interacts with others. [3]
 
 ![SOA](images/serviceoriented.png)
-
-< Discuss about monolithic architecture quality assurance, quality attributes, tools, approaches, problems >
 </p>
 
 ### Microservice
@@ -98,6 +96,7 @@ Even though SOA is assumed to be in MA, it also has some microservice aspects. T
 ### Further Research
 
 ## References
+
 [1]: Mili´c, M.; Makaji´c-Nikoli´c, D. Development of a Quality-Based Model for Software Architecture Optimization: A Case Study of Monolith and Microservice Architectures. Symmetry 2022, 14, 1824. https://doi.org/10.3390/sym14091824
 
 [2]: IBM What is an enterprise service bus (ESB)? https://www.ibm.com/topics/esb
