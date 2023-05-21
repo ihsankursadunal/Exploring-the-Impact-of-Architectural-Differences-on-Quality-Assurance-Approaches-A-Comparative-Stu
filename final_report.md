@@ -113,10 +113,6 @@ From the perspective of quality, most of the requirements are common, but some c
 
 Tools that can be in any other code base are also valid for blockchain, especially Ethereum contracts, such as static and dynamic analysis tools, testing tools, and some of the deployment automation tools. But there are challenges too. As blockchain requires proper testing and mocking the real chain is almost impossible, some additional tools are required to mock the real environment. Like Ganache [14], which provides a test chain run on a local computer, there are some public test chains available for Ethereum, such as Goerli, Sepolia, and Rinkeby [13]. Also, there are some frameworks for testing, such as Truffle [16] and HardHat [17], which both provide testing suites, and HardHat provides additional features like a built-in test chain simulator.
 
-
-< Discuss about blockchain architecture >
-< Discuss about blockchain architecture quality assurance, quality attributes, tools, approaches, problems >
-
 </p>
 
 ### Resulting
