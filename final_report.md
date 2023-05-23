@@ -118,8 +118,16 @@ Tools that can be in any other code base are also valid for blockchain, especial
 ### Resulting
 
 <p>
-< Discuss about all architectures with comparative approach >
-< Discuss about all architectures quality assurance, quality attributes, tools, approaches, problems with comparative approach architecture >
+
+As we observed there are different quality requirements that depends on the architecture. Monolithic requires reliability, availability, testability, deployability portability, etc. Each of these requirements highly related with the architecture and components structure; Microservice requires availability, reliability, security, deployability, testability, etc. Because of the structure of the microservices portability requirement is excluded. Microservice architecture already providing portability attribute; BLockchain requires security, deployability, testability, etc. We can exclude availability and reliability attributes because blockchain architecture already providing availability and reliability. A public blockchain provides availability and reliability from its nodes and global infrastructure. With the light of this observation we can infer that type of the architecture have high effect on quality in terms of quality attributes. 
+
+Another observation that we have is tools and methods varies with the structure of the architecture. Global infrastructure as in blockchain requires additional mechanisms or technique, like mocking a network or chain while testing or like logging mechanisms used in microservice architecture which requires service specific logging to be able to isolate each service and gather log individually, distributed tracing is need to be able to track the operations flows through different services and centralized log aggregation to be able to observe in a common monitor like Kibana. Monolithic logging system typically writes logs into one file or table with lack of isolation and limited scalability, on the other hand blockchain writes logs into chain as unevaluated records which are immutable and persistent, moreover available to all peers in the chain. For example the tool for logging for each architecture, even we can use some common solutions, varies. We need a basic log and indexing solution for monolithic such as Log4J [18], solution with a log aggregator such as Kibana [19] as we discussed above, and for blockchain we need a access node which always connected to chain and provides such mechanisms like interaction with contracts including reading logs and triggering contract mechanisms such as Alchemy [20] or Infura [21].
+
+There are also a lot of common requirements, because of that also common method, tools, and approaches available. As we observed from the literature, testing requirements persist for each architecture and especially at the unit testing level most of the approaches and the tools can be used interchangeably. Purpose of unit testing is to ensure that each unit of code behaves as expected and functions correctly on its own. Therefore we can infer that each architectural part that have been coded needs unit testing in order to verify. Unit testing also audits the isolation and performance of the method, class, or functions. Another testing approach is integration testing which is more important that unit testing in terms of quality assurance because it is much more effective method to ensure end user experience. As an architecture loosen, need for integration testing increases. Integration testing is also a common approach for each architecture but most of the time this approach used in monolithic architecture for SOA implementation. Integration testing verifies the interaction and integration between multiple components, modules, or subsystems of a software system. It ensures that these integrated components work together as expected and perform their functions correctly in collaboration therefore it allows early detection of the problematic real life use cases. Entire flow of a functionality tested via integration testing also gives us the current state of the quality level. As an example Pact [22] gives a solution as contract based integration testing tool it available for each architecture. Moreover from our SLR sources also we observed that environment have high impact on quality assurance activities. Environmental changes created different results in integration, performance and load tests. As suggested from SLR sources containerization as approach and Docker [23] as tool may help to avoid environmental impact on testing. Also, Terraform [24] and Kubernetes [25] are able to provide more stabile environment for testing and deployment strategies. Kubernetes and Terraform also allows us to be assure about scalability, for example for load testing. Moreover code analysis tools like SonarCube [26] are available for static code analysis for each architecture. 
+
+Common solutions and requirements indicates common problems between architectures. Architectures that includes network layer between components like microservice, blockchain, and SOA also requires adherence to network dependent quality assurance techniques. SOA requires BUS capacity that confirms quality requirements for example at the performance attribute; Microservice design should be appropriate to confirm also quality aspect, such as taking into account the maximum response time between  services or circuit breaker like tools to ensure communication over network is not choked up. To explain more, network layer also brings communication interfaces such as http or gRPC clients which are need to be care in order to confirm quality requirements. Further we can assume the interaction node like Infura or Alchemy as interface which are solutions but interactions with these interfaces need to be concerned. For example Infura take request into queue to interact with contract in a chain then we need to include queue time into our performance specification. 
+
+Deployment also a common problem, size of the deploying artifact, cooperation and autonomous testing approaches, assurance of the contract acceptance. These are different aspects of the deployment problems which also impacts scalability. Because of the blockchain contras deployment far different from others and scalability is not an issue. We could only observe solutions for monolithic and microservice. Luckily, in these architectures in time there are reliable solutions a lot, such as Jenkins [27] or ArgoCD [28]. These tools provides autonomous testing and deployment solutions which available both monolithic, also implementation as SOA, and microservices. 
 </p>
 
 ## IV. Conclusion
@@ -166,6 +174,28 @@ Generation Computer Systems, vol. 100, pp. 724–735, 2019.
 
 [15]: Precht, Hauke et al. “Applying Software Quality Criteria to Blockchain Applications: A Criteria Catalog.” Hawaii International Conference on System Sciences (2020).
 
-[16]: Turffle https://trufflesuite.com/
+[16]: Turffle https://trufflesuite.com/, lta 2023
 
-[17]: HardHat https://hardhat.org/
+[17]: HardHat https://hardhat.org/, lta 2023
+
+[18]: Log4J https://logging.apache.org/log4j/2.x/, lta 2023
+
+[19]: Kibana https://www.elastic.co/kibana/, lta 2023
+
+[20]: Alchemy https://www.alchemy.com/, lta 2023
+
+[21]: Infura https://www.infura.io/, lta 2023
+
+[22]: Pact https://docs.pact.io/, lta 2023
+
+[23]: Docker https://www.docker.com/, lta 2023
+
+[24]: Terraform https://www.terraform.io/, lta 2023
+
+[25]: Kubernetes https://kubernetes.io/, lta 2023
+
+[26]: SonarCube https://www.sonarsource.com/products/sonarqube/, lta 2023
+
+[27]: Jenkins https://www.jenkins.io/, lta 2023
+
+[28]: ArgoCD https://argo-cd.readthedocs.io/en/stable/, lta 2023
