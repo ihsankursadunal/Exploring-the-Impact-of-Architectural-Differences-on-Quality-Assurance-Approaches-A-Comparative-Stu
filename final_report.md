@@ -54,13 +54,24 @@ In the first phase of our systematic literature review, we used a systematic and
 
 ### Phase Two
   
-After phase 1 was over, we decided to plan for phase 2 the next week. Our plan was to read in more detail and eliminate the articles that we assumed answered few questions so that we could not eliminate a little of the 31 articles we had before meeting. After giving 1 week for this, we met at the end of 1 week and presented the articles that could be eliminated to each other, we eliminated the articles that we were partners with, and we decided to delete or not delete according to the result by expressing our own views on the articles we were not partners with.To do this, we come together and reviewed each paper with our own comments. Using the comments we wrote, we talked about the weak and strong points of the articles, determined whether they answered our research questions, and at the end of this, we went to the method of elimination as usable or unusable. At the end of this process, we have 19 articles left. These articles are stored in another google drive folder to take a look when needed.
+After phase 1 was over, we decided to plan for phase 2 the next week. Our plan was to read in more detail and eliminate the articles that we assumed answered few questions so that we could not eliminate a little of the 31 articles we had before meeting. After giving 1 week for this, we met at the end of 1 week and presented the articles that could be eliminated to each other, we eliminated the articles that we were partners with, and we decided to delete or not delete according to the result by expressing our own views on the articles we were not partners with.To do this, we come together and reviewed each paper with our own comments. Using the comments we wrote, we talked about the weak and strong points of the articles, determined whether they answered our research questions and we have used exclusion criteria to remove some studies, so that our study is unbiased and the results are credible. 
+
+In our case of SLR, our exclusion criteria as follows:
+* Articles that are about data quality, not about software quality
+* Articles that are not about software quality or software quality attribute or qa method
+* Articles that are too spesific on domain or architecture
+
+These exclusion criterias helped us exclude certain articles from our study. This helped us strenghthen the credibility of our results. At the end of this process, we have 19 articles left. These articles are stored in another google drive folder to take a look when needed.
 
 < What we done at the phase 2 and what we planned to do >
 
 ### Phase Three
 
-After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GMQ questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
+After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GQM questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
+
+![Table 2: Selected Studies](images/selected-studies-SLR.png)
+
+
   
 < What we done at the phase 3 and what we planned to do >
 
