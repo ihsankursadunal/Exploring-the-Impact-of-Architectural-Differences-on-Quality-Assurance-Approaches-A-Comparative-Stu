@@ -25,10 +25,7 @@ During the initial stages of the research, we searched publication domains, such
 
 ![Figure 1: Process Steps used in this SLR.](images/process-steps-SLR.png)
 
-
-
 ### Goal Metric Question
-
 
 Goal-Question-Metric (GQM) is a structured approach to defining and measuring software quality.It is a useful tool for us to ensure that right measurements are collected and result of these measurements are being used to improve the quality. We have used GMQ to frame our research and we defined our questions given in Table 1.
 
@@ -170,3 +167,23 @@ and scenario-driven microservice analysis, retrieval, and testing,” Future
 Generation Computer Systems, vol. 100, pp. 724–735, 2019.
 
 [9]: M. Waseem, P. Liang, G. Márquez and A. D. Salle, "Testing Microservices Architecture-Based Applications: A Systematic Mapping Study," 2020 27th Asia-Pacific Software Engineering Conference (APSEC), Singapore, Singapore, 2020, pp. 119-128, doi: 10.1109/APSEC51365.2020.00020.
+
+[18] Survey on Quality Assurance Testing on Service Oriented Architecture - 10.1109/ICIMTech50083.2020.9211258
+
+[19] What, Where, and How of Cross-domain Scalability Assessment - 10.1109/ICSA-C52384.2021.00016
+
+[20] Development of a Quality-Based Model for Software Architecture Optimization: A Case Study of Monolith and Microservice Architectures - 10.3390/sym14091824
+
+[21] Quality Assurance for Microservice Architectures - 10.1109/ICSESS52187.2021.9522227
+
+[22] Testing Microservices Architecture-Based Applications: A Systematic Mapping Study - 10.1109/APSEC51365.2020.00020
+
+[23] Microservice Testing Approaches: A Systematic Literature Review - 10.30880/ijie.2019.11.08.008
+
+[24] Blockchain verification and validation: Techniques, challenges, and research directions - 10.1016/j.cosrev.2022.100492
+
+[25] Blockchain Testing: Challenges, Techniques, and Research Directions - 10.48550/arXiv.2103.10074
+
+[26] Applying Software Quality Criteria to Blockchain Applications: A Criteria Catalog - http://hdl.handle.net/10125/64511
+
+[27] Blockchain Implementation Quality Challenges: A Literature Review - ISSN 1613-0073
