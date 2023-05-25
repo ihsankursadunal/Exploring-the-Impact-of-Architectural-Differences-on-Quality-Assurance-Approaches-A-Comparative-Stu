@@ -52,7 +52,7 @@ These exclusion criterias helped us exclude certain articles from our study. Thi
 ### Phase Three
 After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GQM questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
 
-![Table 2: Selected Studies](images/selected-studies-SLR.png)
+![Table 2: Selected Studies](images/selected-studies.png)
 
 ## III. Literature Review
 
