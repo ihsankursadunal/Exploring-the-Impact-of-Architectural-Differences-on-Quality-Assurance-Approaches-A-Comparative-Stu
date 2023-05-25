@@ -13,7 +13,7 @@ Looking for a better approach leads decision-makers to create a better solution 
 
 ## II. Research Method
 
-In this study, a systematic literature review (SLR) research method is used to explore the impact of architectural differences on quality assurance approaches. SLR is a research method that uses systematic and transparent approach to identify, select and evaulate an existing liteature on a specific research topic. The purpose of using SLR is to provide comprehensive, unbiased and systematic summary of the available evidence related to the research question. We have followed the process steps as shown in Figure 1. At the start we decided our research problem and we came up with research related questions to guide our SLR. Then we have selected our keywords for our search strings and we have searched among publications to find related papers to our SLR which are explained in Phase One.
+In this study, a systematic literature review (SLR) research method is used to explore the impact of architectural differences on quality assurance approaches. SLR is a research method that uses systematic and transparent approach to identify, select and evaluate an existing literature on a specific research topic. The purpose of using SLR is to provide comprehensive, unbiased and systematic summary of the available evidence related to the research question. We have followed the process steps as shown in Figure 1. At the start we decided our research problem and we came up with research related questions to guide our SLR. Then we have selected our keywords for our search strings and we have searched among publications to find related papers to our SLR which are explained in Phase One.
 
 During the initial stages of the research, we searched publication domains, such as Google Scholar, using specific query strings, such as the following:
 * (monolith*) AND "software architecture" AND "quality assurance"
@@ -21,7 +21,7 @@ During the initial stages of the research, we searched publication domains, such
 * (blockchain*) AND "software architecture" AND "quality assurance"
 * (monolith*) AND (microservice*) AND (blockchain*) AND "software architecture" AND "quality assurance"
 
- In our first step both of us started searching for a related papers and we made a first set out of these papers. To select these papers we searched our search string and we read the titles and abstraction parts of these papers and if according to our observation, we believe that this can be useful we added that to the set using DOI ISBN and Web page link of document in Source-Question Relation Report template.We also labeled each paper with the revelant question that paper can answer. While doing all this, we did research separately from each other. We wrote down our opinions on the papers we assumed that might be useful and marked the questions we speculated might be answered. We had total 31 paper in our first set.For each paper we prepared Source-Question Relation Report and these reports are saved in private [google drive folder](https://drive.google.com/drive/u/0/folders/1eaKwZmwAPQW0qsri6mxIebG0j68r48uA) between us. In the second step which we explain in Phase Two, we read the papers to see if they answers to our questions and in this step we eliminated 12 paper because we believed they answer a few of our questions and they are not going to be useful in our study.At the end of this step we had 19 papers and this was our second set of papers. After this step we came together and reviewed each paper by making a table for each question answered, Total Score and our final desicion for each paper.The have selected the questions answered in this paper, scored importance of this paper between 1-5, if sum of our score was bigger than 8, we have selected this paper and colored green in the final desicion for the paper.In some papers our sum for the paper was 8 so we colored that one orange to say that in this paper we were in doubt.Details of this process will be explained in phase 3.In the end we had 10 selected papers and one doubtful paper in our final pool.
+ In our first step both of us started searching for a related papers and we made a first set out of these papers. To select these papers we searched our search string and we read the titles and abstraction parts of these papers and if according to our observation, we believe that this can be useful we added that to the set using DOI ISBN and Web page link of document in Source-Question Relation Report template.We also labeled each paper with the relevant question that paper can answer. While doing all this, we did research separately from each other. We wrote down our opinions on the papers we assumed that might be useful and marked the questions we speculated might be answered. We had total 31 paper in our first set.For each paper we prepared Source-Question Relation Report and these reports are saved in private [google drive folder](https://drive.google.com/drive/u/0/folders/1eaKwZmwAPQW0qsri6mxIebG0j68r48uA) between us. In the second step which we explain in Phase Two, we read the papers to see if they answers to our questions and in this step we eliminated 12 paper because we believed they answer a few of our questions and they are not going to be useful in our study.At the end of this step we had 19 papers and this was our second set of papers. After this step we came together and reviewed each paper by making a table for each question answered, Total Score and our final decision for each paper.The have selected the questions answered in this paper, scored importance of this paper between 1-5, if sum of our score was bigger than 8, we have selected this paper and colored green in the final decision for the paper.In some papers our sum for the paper was 8 so we colored that one orange to say that in this paper we were in doubt.Details of this process will be explained in phase 3.In the end we had 10 selected papers and one doubtful paper in our final pool.
 
 ![Figure 1: Process Steps used in this SLR.](images/process-steps-SLR.png)
 
@@ -41,7 +41,7 @@ Using the GQM approach in the form of a question-driven has been a guide for us 
 </p>
 
 ### Phase One
-After identifying the problem, we scheduled a meeting once a week. In our first meeting, we decided to determine the search strings related to our problem and find about 30 articles about them, read the title and abstract parts of these articles, and we appraise them according to their revelence with our questions, we decided to upload them to a common google drive folder using the Source-Question Relation Report format we have prepared for each article. We gave 1 week to find these articles, and at the end of 1 week, we were ready to start phase 1.
+After identifying the problem, we scheduled a meeting once a week. In our first meeting, we decided to determine the search strings related to our problem and find about 30 articles about them, read the title and abstract parts of these articles, and we appraise them according to their relevance with our questions, we decided to upload them to a common google drive folder using the Source-Question Relation Report format we have prepared for each article. We gave 1 week to find these articles, and at the end of 1 week, we were ready to start phase 1.
   
 In the first phase of our systematic literature review, we used a systematic and transparent approach to identify, select, and evaluate papers on the topic of the impact of architectural differences on quality assurance approaches. We began by defining our research problem and coming up with research-related questions to guide our SLR. We then selected keywords for our search strings and searched among publications to find related papers. We read the titles and abstracts of the papers to determine their relevance, and we labeled each paper with the relevant question that it could answer. While doing all this, we did research separately from each other. In our initial assessment, we recorded our reflections on the papers we deemed potentially valuable and highlighted the inquiries we believed could be addressed. Ultimately, our first set comprised a total of 31 papers.
   
@@ -55,9 +55,9 @@ After phase 1 was over, we decided to plan for phase 2 the next week. Our plan w
 In our case of SLR, our exclusion criteria as follows:
 * Articles that are about data quality, not about software quality
 * Articles that are not about software quality or software quality attribute or qa method
-* Articles that are too spesific on domain or architecture
+* Articles that are too specific on domain or architecture
 
-These exclusion criterias helped us exclude certain articles from our study. This helped us strenghthen the credibility of our results. At the end of this process, we have 19 articles left. These articles are stored in another google drive folder to take a look when needed.
+These exclusion criterias helped us exclude certain articles from our study. This helped us strengthen the credibility of our results. At the end of this process, we have 19 articles left. These articles are stored in another google drive folder to take a look when needed.
 
 < What we done at the phase 2 and what we planned to do >
 
@@ -200,22 +200,22 @@ Generation Computer Systems, vol. 100, pp. 724–735, 2019.
 
 [17]: HardHat https://hardhat.org/
 
-[18] Survey on Quality Assurance Testing on Service Oriented Architecture - 10.1109/ICIMTech50083.2020.9211258
+[18]: Survey on Quality Assurance Testing on Service Oriented Architecture - 10.1109/ICIMTech50083.2020.9211258
 
-[19] What, Where, and How of Cross-domain Scalability Assessment - 10.1109/ICSA-C52384.2021.00016
+[19]: What, Where, and How of Cross-domain Scalability Assessment - 10.1109/ICSA-C52384.2021.00016
 
-[20] Development of a Quality-Based Model for Software Architecture Optimization: A Case Study of Monolith and Microservice Architectures - 10.3390/sym14091824
+[20]: Development of a Quality-Based Model for Software Architecture Optimization: A Case Study of Monolith and Microservice Architectures - 10.3390/sym14091824
 
-[21] Quality Assurance for Microservice Architectures - 10.1109/ICSESS52187.2021.9522227
+[21]: Quality Assurance for Microservice Architectures - 10.1109/ICSESS52187.2021.9522227
 
-[22] Testing Microservices Architecture-Based Applications: A Systematic Mapping Study - 10.1109/APSEC51365.2020.00020
+[22]: Testing Microservices Architecture-Based Applications: A Systematic Mapping Study - 10.1109/APSEC51365.2020.00020
 
-[23] Microservice Testing Approaches: A Systematic Literature Review - 10.30880/ijie.2019.11.08.008
+[23]: Microservice Testing Approaches: A Systematic Literature Review - 10.30880/ijie.2019.11.08.008
 
-[24] Blockchain verification and validation: Techniques, challenges, and research directions - 10.1016/j.cosrev.2022.100492
+[24]: Blockchain verification and validation: Techniques, challenges, and research directions - 10.1016/j.cosrev.2022.100492
 
-[25] Blockchain Testing: Challenges, Techniques, and Research Directions - 10.48550/arXiv.2103.10074
+[25]: Blockchain Testing: Challenges, Techniques, and Research Directions - 10.48550/arXiv.2103.10074
 
-[26] Applying Software Quality Criteria to Blockchain Applications: A Criteria Catalog - http://hdl.handle.net/10125/64511
+[26]: Applying Software Quality Criteria to Blockchain Applications: A Criteria Catalog - http://hdl.handle.net/10125/64511
 
-[27] Blockchain Implementation Quality Challenges: A Literature Review - ISSN 1613-0073
+[27]: Blockchain Implementation Quality Challenges: A Literature Review - ISSN 1613-0073
