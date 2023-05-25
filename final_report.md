@@ -33,21 +33,11 @@ Goal-Question-Metric (GQM) is a structured approach to defining and measuring so
 
 Using the GQM approach in the form of a question-driven has been a guide for us on the way to the goal. By identifying the questions, we were able to target specific points about quality that needed to be answered. Thanks to these questions, we determined the scope of the study. The GQM approach helps us reach the goal by asking the right questions and helps us collect the metrics we want to collect.
 
-<p>
-< Why we use GMQ, how we used it ><br>
-< What are our questions ><br>
-< Why, we choose these questions ><br>
-< GMQ table >
-</p>
-
 ### Phase One
 After identifying the problem, we scheduled a meeting once a week. In our first meeting, we decided to determine the search strings related to our problem and find about 30 articles about them, read the title and abstract parts of these articles, and we appraise them according to their relevance with our questions, we decided to upload them to a common google drive folder using the Source-Question Relation Report format we have prepared for each article. We gave 1 week to find these articles, and at the end of 1 week, we were ready to start phase 1.
   
 In the first phase of our systematic literature review, we used a systematic and transparent approach to identify, select, and evaluate papers on the topic of the impact of architectural differences on quality assurance approaches. We began by defining our research problem and coming up with research-related questions to guide our SLR. We then selected keywords for our search strings and searched among publications to find related papers. We read the titles and abstracts of the papers to determine their relevance, and we labeled each paper with the relevant question that it could answer. While doing all this, we did research separately from each other. In our initial assessment, we recorded our reflections on the papers we deemed potentially valuable and highlighted the inquiries we believed could be addressed. Ultimately, our first set comprised a total of 31 papers.
   
-< What we done at the phase 1 and what we planned to do >
-  
-
 ### Phase Two
   
 After phase 1 was over, we decided to plan for phase 2 the next week. Our plan was to read in more detail and eliminate the articles that we assumed answered few questions so that we could not eliminate a little of the 31 articles we had before meeting. After giving 1 week for this, we met at the end of 1 week and presented the articles that could be eliminated to each other, we eliminated the articles that we were partners with, and we decided to delete or not delete according to the result by expressing our own views on the articles we were not partners with.To do this, we come together and reviewed each paper with our own comments. Using the comments we wrote, we talked about the weak and strong points of the articles, determined whether they answered our research questions and we have used exclusion criteria to remove some studies, so that our study is unbiased and the results are credible. 
@@ -59,17 +49,10 @@ In our case of SLR, our exclusion criteria as follows:
 
 These exclusion criterias helped us exclude certain articles from our study. This helped us strengthen the credibility of our results. At the end of this process, we have 19 articles left. These articles are stored in another google drive folder to take a look when needed.
 
-< What we done at the phase 2 and what we planned to do >
-
 ### Phase Three
 After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GQM questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
 
 ![Table 2: Selected Studies](images/selected-studies-SLR.png)
-
-
-  
-< What we done at the phase 3 and what we planned to do >
-
 
 ## III. Literature Review
 
