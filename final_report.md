@@ -184,37 +184,11 @@ In conclusion, the advantages and disadvantages of different SQA approaches depe
 
 4. How software quality assurance approaches and testing techniques can be optimized to improve the development process and project management  in each architecture?
 
-Software quality assurance (SQA) is an important part of the software development process. It helps to ensure that the software meets high standards and fulfills user requirements. SQA approaches and testing techniques can be optimized to improve the development process and project management in each architecture.
+According to studies, each architecture has unique and shared QA standards. Our research began with the premise that an architecture's QA can be improved by incorporating QA methodologies or tools from other designs. However, towards the end of our research, we had encountered opposing views on this hypothesis. While some tools and methodologies can be used interchangeably, each architecture usually requires its unique QA implementation.
 
-Monolithic architecture
+Obtaining a microservice QA tool, such as a logging tool, for example, is difficult without surrendering one of the primary benefits of the monolithic architecture, which is simplicity. On the other hand, architectures such as blockchain have separate and independent QA requirements.
 
-In monolithic architecture, SQA can be optimized by:
-
-* Using a comprehensive approach to testing. This means testing the entire system as a whole, as well as individual components.
-* Using automated testing tools. This can help to save time and resources.
-* Involving stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
-* Using a continuous integration and continuous delivery (CI/CD) pipeline. This can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
-
-Microservice architecture
-
-In microservice architecture, SQA can be optimized by:
-
-* Testing each microservice independently. This can help to identify and fix bugs early.
-* Using a service-oriented architecture (SOA) testing approach. This approach focuses on testing the interactions between services.
-* Using automated testing tools. This can help to save time and resources.
-* Involving stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
-* Using a continuous integration and continuous delivery (CI/CD) pipeline. This can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
-* Blockchain architecture
-
-In blockchain architecture, SQA can be optimized by:
-
-* Testing the security of the blockchain. This is important because blockchains are decentralized and therefore vulnerable to attack.
-* Testing the performance of the blockchain. This is important because blockchains can be slow and expensive to use.
-* Testing the scalability of the blockchain. This is important because blockchains are designed to handle a large number of transactions.
-* Using automated testing tools. This can help to save time and resources.
-* Involving stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
-
-By optimizing SQA approaches and testing techniques, software developers can improve the development process and project management in each architecture. This can help to ensure that software is of high quality and meets the needs of users.
+To summarize, while some tools and procedures can be utilized interchangeably, there are other ad hoc tools and processes that have already been applied and offer higher cost-effectiveness and return on investment (ROI).
 
 5. What are the best practices for ensuring software quality in microservices, monolithic, and blockchain architectures?
 
