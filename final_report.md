@@ -270,6 +270,8 @@ We have also found that there are a number of common quality assurance technique
 Overall, we believe that this paper provides a valuable overview of the impact of architectural differences on quality assurance approaches. We hope that this information will be helpful to software developers and quality assurance professionals who are designing and developing software systems.
 
 In addition to the information that is presented in the paper, there are a number of other factors that can affect the quality of software systems. These factors include the skills and experience of the development team, the use of appropriate tools and techniques, and the availability of resources. It is important to consider all of these factors when designing and developing software systems in order to ensure that they meet the required quality standards.
+
+In conclusion, the advantages and disadvantages of different SQA approaches depend on the specific architecture being used. The monolithic architecture benefits from a comprehensive approach, while the microservice architecture emphasizes independent testing of individual services. The blockchain architecture leverages the inherent properties of the blockchain for availability and reliability. However, there are common approaches and tools, such as unit testing, integration testing, static code analysis, containerization, and orchestration, that can be applied across architectures to enhance software quality assurance. By tailoring the SQA approach to the specific architecture and utilizing the appropriate tools and methods, developers can ensure that the software meets high-quality standards and fulfills user expectations.
 </p>
 
 ### Further Research
