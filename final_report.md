@@ -146,10 +146,121 @@ Deployment also a common problem, size of the deploying artifact, cooperation an
 ## IV. Conclusion
 
 <p>
-< General Summarization >
+
+1. What are the common software quality assurance approaches used in microservices, monolithic, and blockchain architectures by their structural differences?
+
+There are a number of common software quality assurance (QA) approaches that can be used in all three types of architectures:
+
+* Unit testing: Unit testing is a type of software testing that focuses on testing individual units of code. This type of testing is typically performed by developers and can be automated using a variety of tools.
+* Integration testing: Integration testing is a type of software testing that focuses on testing how individual units of code interact with each other. This type of testing is typically performed by developers and testers and can be automated using a variety of tools.
+* System testing: System testing is a type of software testing that focuses on testing the entire system as a whole. This type of testing is typically performed by testers and can be manual or automated.
+* Acceptance testing: Acceptance testing is a type of software testing that is performed by users or customers to verify that the system meets their requirements. This type of testing is typically manual.
+
+In addition to these common approaches, there are a number of other QA approaches that can be used in specific types of architectures. For example, in microservices architectures, it is important to test the interactions between services. This can be done using a variety of tools, such as service locators and service mocks. In blockchain architectures, it is important to test the security of the system. This can be done using a variety of tools, such as static analysis tools and penetration testing tools.
+
+2. How do the structural differences of microservices, monolithic, and blockchain architectures affect software quality assurance approaches and testing techniques?
+
+The structural differences of microservices, monolithic, and blockchain architectures affect software quality assurance approaches and testing techniques in a number of ways. For example, in monolithic architectures, it is easier to test the entire system as a whole because all of the code is in one place. However, it can be more difficult to make changes to monolithic architectures because any change to one part of the system can affect other parts of the system. In microservices architectures, it is more difficult to test the entire system as a whole because the code is spread across multiple services. However, it is easier to make changes to microservices architectures because changes to one service do not affect other services. In blockchain architectures, it is important to test the security of the system because blockchains are designed to be tamper-proof. This can be done using a variety of tools, such as static analysis tools and penetration testing tools.
+
+3. What are the advantages and disadvantages of different software quality assurance approaches in each architecture?
+
+Software quality assurance (SQA) is an important part of the software development process. It helps to ensure that the software meets high standards and fulfills user requirements. The implementation of SQA can vary depending on the specific architecture of the software being developed.
+
+Monolithic architecture
+
+In monolithic architecture, SQA can be implemented using a comprehensive approach that focuses on testing the entire system as a cohesive unit. This approach ensures that the system is reliable, available, testable, and deployable. By thoroughly testing the monolithic architecture as a whole, developers can identify and address any potential issues or bugs that may arise. Tools like Log4J can be utilized for logging purposes, allowing developers to track and analyze system behavior. Additionally, tools such as Jenkins or ArgoCD provide autonomous testing and deployment solutions, streamlining the quality assurance process. However, it's worth noting that the monolithic architecture may face challenges in terms of scalability and the lack of isolation in logging systems, which can impact overall quality.
+
+Microservice architecture
+
+In the microservice architecture, SQA is typically implemented by focusing on individual services and their independent testing. This approach ensures that each service is reliable, available, secure, testable, and deployable. By treating each microservice as a separate entity, developers can thoroughly test its functionality and behavior, enabling early detection and resolution of any issues. Service-specific logging is often implemented to isolate each microservice's logs, facilitating troubleshooting and debugging. Distributed tracing tools aid in tracking the flow of operations across different microservices, ensuring smooth interaction and collaboration. Contract-based integration testing tools like Pact can be employed to verify the compatibility and interaction between microservices. However, due to the distributed nature of microservices, managing the complexity of interactions between services and ensuring effective coordination and communication can be challenging, requiring additional effort in quality assurance activities.
+
+Blockchain architecture
+
+In the blockchain architecture, SQA primarily focuses on security, deployability, and testability. The decentralized nature of public blockchains inherently provides availability and reliability. Security testing is of paramount importance to identify vulnerabilities and ensure the robustness of the blockchain system. Logging in a blockchain environment involves writing logs into the chain itself, leveraging the immutability and persistence of the blockchain technology. Tools like Alchemy or Infura enable developers to interact with the blockchain and access contract mechanisms, facilitating testing and validation. However, the performance of blockchain architecture can be affected by factors such as queue time for interacting with the blockchain, which requires careful consideration in quality assurance efforts.
+
+While each architecture has its unique requirements, there are common approaches and tools that can be employed across architectures for effective SQA. Unit testing and integration testing remain crucial components of quality assurance in all architectures. These testing approaches help verify the behavior and functionality of individual units of code as well as the interactions between different components. Static code analysis tools like SonarCube assist in identifying code-level issues and enforcing coding standards. Containerization tools like Docker, infrastructure tools like Terraform, and orchestration tools like Kubernetes provide stability, scalability, and reproducibility of environments for testing and deployment across architectures. These tools aid in creating stable and consistent testing environments and enable seamless deployment strategies. Additionally, network-dependent quality assurance techniques, such as handling communication interfaces and considering response times between services, are important in architectures like microservices and service-oriented architecture (SOA).
+
+In conclusion, the advantages and disadvantages of different SQA approaches depend on the specific architecture being used. The monolithic architecture benefits from a comprehensive approach, while the microservice architecture emphasizes independent testing of individual services. The blockchain architecture leverages the inherent properties of the blockchain for availability and reliability. However, there are common approaches and tools, such as unit testing, integration testing, static code analysis, containerization, and orchestration, that can be applied across architectures to enhance software quality assurance. By tailoring the SQA approach to the specific architecture and utilizing the appropriate tools and methods, developers can ensure that the software meets high-quality standards and fulfills user expectations.
+
+4. How software quality assurance approaches and testing techniques can be optimized to improve the development process and project management  in each architecture?
+
+According to studies, each architecture has unique and shared QA standards. Our research began with the premise that an architecture's QA can be improved by incorporating QA methodologies or tools from other designs. However, towards the end of our research, we had encountered opposing views on this hypothesis. While some tools and methodologies can be used interchangeably, each architecture usually requires its unique QA implementation.
+
+Obtaining a microservice QA tool, such as a logging tool, for example, is difficult without surrendering one of the primary benefits of the monolithic architecture, which is simplicity. On the other hand, architectures such as blockchain have separate and independent QA requirements.
+
+To summarize, while some tools and procedures can be utilized interchangeably, there are other ad hoc tools and processes that have already been applied and offer higher cost-effectiveness and return on investment (ROI).
+
+5. What are the best practices for ensuring software quality in microservices, monolithic, and blockchain architectures?
+
+There are many best practices for ensuring software quality in microservices, monolithic, and blockchain architectures. Some of the most important include:
+
+Start with a clear understanding of the requirements. This is essential for any software development project, but it is especially important for projects that use microservices, monolithic, or blockchain architectures.
+* Use a comprehensive testing approach. This includes unit testing, integration testing, and system testing.
+* Use automated testing tools. This can help to save time and resources, and it can also help to improve the quality of the testing process.
+* Involve stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
+* Use a continuous integration and continuous delivery (CI/CD) pipeline. This can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
+
+In addition to these general best practices, there are also some specific best practices for each type of architecture.
+
+Monolithic architecture
+
+* Use a comprehensive approach to testing. This means testing the entire system as a whole, as well as individual components.
+* Use automated testing tools. This can help to save time and resources.
+* Involve stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
+* Use a continuous integration and continuous delivery (CI/CD) pipeline. This can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
+
+Microservice architecture
+
+* Test each microservice independently. This can help to identify and fix bugs early.
+* Use a service-oriented architecture (SOA) testing approach. This approach focuses on testing the interactions between services.
+* Use automated testing tools. This can help to save time and resources.
+* Involve stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
+* Use a continuous integration and continuous delivery (CI/CD) pipeline. This can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
+
+Blockchain architecture
+
+* Test the security of the blockchain. This is important because blockchains are decentralized and therefore vulnerable to attack.
+* Test the performance of the blockchain. This is important because blockchains can be slow and expensive to use.
+* Test the scalability of the blockchain. This is important because blockchains are designed to handle a large number of transactions.
+* Use automated testing tools. This can help to save time and resources.
+* Involve stakeholders in the testing process. This can help to ensure that the software meets the needs of users.
+
+By following these best practices, software developers can help to ensure that their software is of high quality and meets the needs of users.
+
+Here are some additional tips for ensuring software quality in microservices, monolithic, and blockchain architectures:
+
+* Use a variety of testing techniques. No single testing technique can catch all bugs, so it is important to use a variety of techniques, such as unit testing, integration testing, and system testing.
+* Test early and often. The earlier you start testing, the easier it will be to find and fix bugs.
+* Use automated testing tools. Automated testing tools can help to save time and resources, and they can also help to improve the quality of the testing process.
+* Involve stakeholders in the testing process. Stakeholders can provide valuable feedback that can help to improve the quality of the software.
+* Use a continuous integration and continuous delivery (CI/CD) pipeline. A CI/CD pipeline can help to ensure that software is tested and deployed frequently, which can help to identify and fix bugs early.
+
+As a result of our study, we saw that there is not much approach called quality on the monolithic side. There is quality management mostly on the microservice side. This is because monolithic architectures are typically easier to develop and maintain, and therefore there is less focus on quality assurance. Microservice architectures, on the other hand, are more complex and difficult to maintain, and therefore there is a greater focus on quality assurance.
+
+At a more basic level, the test is available as a unit test. This is because unit tests are the most basic type of test, and they can be used to test individual units of code. Integration tests and system tests are also important, but they are more complex and time-consuming to perform.
+
+For example, it is progressing with security and control in general, at maturity 3-4 level, defect prevention sides are mostly provided by proven open source contracts. This is because blockchain architectures are designed to be secure and tamper-proof, and therefore there is a greater focus on security and defect prevention.
+
+It is not yet possible to outsource the quality of blockchain infrastructure, but also some quality assurance patterns that blockchain provides in terms of structure It includes infrastructures that require great effort. This is because blockchain infrastructures are complex and difficult to maintain, and therefore it is not yet possible to outsource the quality of these infrastructures to a third party.
+
+We have seen that although some tools and methods can be used interchangeably, it is both less costly and more convenient for architectures to use their own tools. This is because different architectures have different needs, and therefore it is not always possible to use the same tools and methods for all architectures.
+
+Most of the documents we reviewed were test related, most of the ones we excluded were not suitable for our search string. It was mostly about data quality. He was talking about data quality, there was little documentation on quality assurance, and we have seen that quality awareness is developing in some architectures.
+
+It is understood that all of the security in the blockchain is left to the infrastructure, it is not considered as an additional quality metric, therefore there is an opinion that the problems that will arise belong to the general structure, that it may take time to examine and evaluate, and that the quality logic in the blockchain is on the rise between 2018 and 2020.
+
+As a result, we could not reach the hypothesis we expected. Our hypothesis was that a tool could be used in another construct. We saw that the reason was both cost and incompatibility.
+
+In conclusion, there is no one-size-fits-all approach to software quality assurance. The best approach will vary depending on the specific architecture and the needs of the project. However, by following the best practices and tips mentioned above, software developers can help to ensure that their software is of high quality and meets the needs of users.
 </p>
 
 ### Further Research
+
+The research presented in this paper provides a foundation for future work on software quality assurance in monolithic, microservice, and blockchain architectures. In the future, it would be beneficial to conduct a wider search for sources and time to provide a clearer and more accurate result. The distinction must be made well, the decomposition distinction must be made well, more data, resources and time are required to make an evaluation on such an abstract subject. When these resources are available in the future, they can draw a more efficient roadmap for themselves by using this document.
+
+In addition, it would also be beneficial to conduct case studies of specific software projects that have used different approaches to software quality assurance. This would provide valuable insights into the challenges and benefits of different approaches.
+
+Overall, the research presented in this paper provides a foundation for future work on software quality assurance in monolithic, microservice, and blockchain architectures. By conducting the research suggestions above, software developers can gain a better understanding of the factors that contribute to software quality and develop more effective strategies for ensuring that their software meets the needs of users.
 
 ## References
 
