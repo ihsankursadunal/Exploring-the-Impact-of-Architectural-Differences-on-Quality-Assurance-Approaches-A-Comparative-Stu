@@ -56,6 +56,22 @@ These exclusion criterias helped us exclude certain articles from our study. Thi
 ### Phase Three
 After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GQM questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
 
+### Validity Threats
+
+<p>
+
+Selection Bias: Our study relies heavily on available literature and resources. It's possible that there is a bias in the selection of documents, studies, and resources used to collate the information. This could lead to skewed or incomplete views on the software quality assurance methods for microservices, monolithic, and blockchain architectures.
+
+Interpretation Bias: We interpreted existing documents and studies to form the basis of our conclusions. Different interpretations by various team members could lead to inconsistencies and thus potentially threaten the validity of our findings.
+
+Limited Scope: Our analysis and conclusions are based on the available and accessible studies until the cut-off time. It does not take into account any studies or documents that might have been published after the cut-off point or any relevant documents that were not accessible. This might limit the completeness of our analysis.
+
+Methodology Limitation: We followed a specific methodology to conduct this study, which includes document selection, analysis, interpretation, and drawing conclusions. Any limitations or errors in this methodology could directly impact the validity of our findings.
+
+Subjectivity: Our study involves a level of subjective judgment in the interpretation and analysis of the documents. This could introduce a level of bias in our findings and thus pose a threat to validity.
+
+To mitigate these threats, we strived for diversity in our literature selection, made efforts to reduce biases in our interpretation, acknowledged the limitation of our scope, followed a rigorous and robust methodology, and attempted to reduce subjectivity in our analysis and conclusions.</p>
+
 ![Table 2: Selected Studies](images/selected-studies.png)
 
 ## III. Literature Review
