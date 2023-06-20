@@ -56,9 +56,35 @@ These exclusion criterias helped us exclude certain articles from our study. Thi
 ### Phase Three
 After Phase 2 was over, we gave each other 1 week. During this time, we will read all the articles in detail, decide in detail whether they fit our GQM questions or not, and finally, we wanted to give this article a score between 1 and 5 and decide together whether to take the next step. We gave our score for each article we read, wrote detailed explanations, and compared the scores we gave when we totaled for Phase 3. If the sum of the points we gave for an article is 8 or more than 8, we decided to choose that article for use. If it is less than 8, we decided not to use it. We were undecided on 1 article. Then we eliminated the undecided and we have 10 articles left. These 10 articles were suitable for our GQM questions and included opinions and studies on the subjects we researched. We decided to use these articles, and in this section, we re-read these articles and marked the places that we consider important and useful in our article.
 
+### Validity Threats
+
+<p>
+
+Selection Bias: Our study relies heavily on available literature and resources. It's possible that there is a bias in the selection of documents, studies, and resources used to collate the information. This could lead to skewed or incomplete views on the software quality assurance methods for microservices, monolithic, and blockchain architectures.
+
+Interpretation Bias: We interpreted existing documents and studies to form the basis of our conclusions. Different interpretations by various team members could lead to inconsistencies and thus potentially threaten the validity of our findings.
+
+Limited Scope: Our analysis and conclusions are based on the available and accessible studies until the cut-off time. It does not take into account any studies or documents that might have been published after the cut-off point or any relevant documents that were not accessible. This might limit the completeness of our analysis.
+
+Methodology Limitation: We followed a specific methodology to conduct this study, which includes document selection, analysis, interpretation, and drawing conclusions. Any limitations or errors in this methodology could directly impact the validity of our findings.
+
+Subjectivity: Our study involves a level of subjective judgment in the interpretation and analysis of the documents. This could introduce a level of bias in our findings and thus pose a threat to validity.
+
+To mitigate these threats, we strived for diversity in our literature selection, made efforts to reduce biases in our interpretation, acknowledged the limitation of our scope, followed a rigorous and robust methodology, and attempted to reduce subjectivity in our analysis and conclusions.</p>
+
 ![Table 2: Selected Studies](images/selected-studies.png)
 
 ## III. Literature Review
+
+As we observed from the literature, including studies that we work on, they have limited scope. For example, whether it is about testing approaches or comparison of the features that come from the architecture, most of the studies about comparison between two architectures are either monolithic and microservice or microservice and blockchain technologies, such as The Comparison of Microservice and Monolithic Architecture [39]. Comparison of the testing approaches of microservices and monolithic systems, especially SOA, is a usual approach to making comparisons between these architectures, but relationships with another architecture like blockchain may allow us to find more relationships between these architectures and increase our understanding of the blockchain and its quality assurance approaches.
+
+Another missed point in the literature is the lack of suitability checks for these approaches; for example, an approach for agile SOA quality management practices may also be suitable for microservices, but there is no academic study about their validity.
+
+A Comparative Review of Microservices and Monolithic Architectures [40] tried to understand the differences between monolithic and microservice architectures from an architectural perspective with a little quality perspective, but the relation between architecture and quality assurance practices was not included. Architecture-based features, advantages, and disadvantages are provided, and in order to make a proper comparison, they also provide quality metrics.
+
+From our perspective, most of the studies are related to testing and its approaches [18], [23], and [25]. The relationship between architectural structure and quality is not emphasized. Even though we tried to eliminate studies that only related to a specific part of the software quality, in order to be more specific for various parts, we chose to include some of them for their sides, which gives us a better understanding of the abstract part of the software quality that we try to study. Architecture and its relationship with software quality approaches and practices place themselves at the start of the software planning steps. Therefore, it requires a much more abstract point of view.
+
+Another insight that we gather from the literature is that there is a need for a wholistic view of popular architectures and their quality-based practices in a comparative way. Unluckily, we cannot provide benchmarking for these practices, and we also do not have an inclusive document that underlines differences based on architecture for quality approaches. This document provides a more abstract and wholistic view of quality approaches from an architectural perspective.
 
 ### Monolithic
 
@@ -347,3 +373,8 @@ Generation Computer Systems, vol. 100, pp. 724–735, 2019.
 [37]: Jenkins https://www.jenkins.io/, lta 2023
 
 [38]: ArgoCD https://argo-cd.readthedocs.io/en/stable/, lta 2023
+
+[39]: K. Gos and W. Zabierowski, "The Comparison of Microservice and Monolithic Architecture," 2020 IEEE XVIth International Conference on the Perspective Technologies and Methods in MEMS Design (MEMSTECH), Lviv, Ukraine, 2020, pp. 150-153, doi: 10.1109/MEMSTECH49584.2020.9109514.
+
+[40]: Anna Vacca, Andrea Di Sorbo, Corrado A. Visaggio, Gerardo Canfora,
+A systematic literature review of blockchain and smart contract development: Techniques, tools, and open challenges, Journal of Systems and Software, Volume 174, 2021, 110891, ISSN 0164-1212, https://doi.org/10.1016/j.jss.2020.110891.
